@@ -163,15 +163,15 @@ public class Chapter9UtilTest {
 				Currency.PENNIES, Currency.PENNIES, Currency.PENNIES }, iter.next());
 	}
 
-	private static void print(Set<Currency[]> set) {
-		for (Currency[] s : set) {
-			for (Currency c : s) {
-				if (c != null) {
-					System.out.print(c.name() + " ");
-				}
-			}
-			System.out.println();
-		}
-	}
+//	private static void print(Set<Currency[]> set) {
+//		for (Currency[] s : set) {
+//			for (Currency c : s) {
+//				if (c != null) {
+//					System.out.print(c.name() + " ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//	}
 
 }

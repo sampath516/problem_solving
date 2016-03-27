@@ -121,7 +121,7 @@ public class Chapter9Util {
 				if (answerSolution(n, localSum)) {
 					solutions.add(solution.clone());
 					localSum = sum;
-					print(solution);
+				//	print(solution);
 					adjustSolution(solution, depth);
 					continue;
 				}
@@ -142,15 +142,15 @@ public class Chapter9Util {
 
 	}
 
-	private static void print(Currency[] set) {
-		for (Currency c : set) {
-			if (c != null) {
-				System.out.print(c.name() + " ");
-			}
-		}
-		System.out.println();
-
-	}
+//	private static void print(Currency[] set) {
+//		for (Currency c : set) {
+//			if (c != null) {
+//				System.out.print(c.name() + " ");
+//			}
+//		}
+//		System.out.println();
+//
+//	}
 
 	private static boolean answerSolution(int n, int sum) {
 		return n == sum;
